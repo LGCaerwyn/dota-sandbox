@@ -97,6 +97,7 @@
             <Button id="npc_dota_hero_skywrath_mage" onactivate="OnClick('npc_dota_hero_skywrath_mage')"><Label text="Skywrath Mage" id="label_npc_dota_hero_skywrath_mage"></Label></Button>
             <Button id="npc_dota_hero_slardar" onactivate="OnClick('npc_dota_hero_slardar')"><Label text="Slardar" id="label_npc_dota_hero_slardar"></Label></Button>
             <Button id="npc_dota_hero_slark" onactivate="OnClick('npc_dota_hero_slark')"><Label text="Slark" id="label_npc_dota_hero_slark"></Label></Button>
+            <Button id="npc_dota_hero_snapfire" onactivate="OnClick('npc_dota_hero_snapfire')"><Label text="Snapfire" id="label_npc_dota_hero_snapfire"></Label></Button>
             <Button id="npc_dota_hero_sniper" onactivate="OnClick('npc_dota_hero_sniper')"><Label text="Sniper" id="label_npc_dota_hero_sniper"></Label></Button>
             <Button id="npc_dota_hero_spectre" onactivate="OnClick('npc_dota_hero_spectre')"><Label text="Spectre" id="label_npc_dota_hero_spectre"></Label></Button>
             <Button id="npc_dota_hero_spirit_breaker" onactivate="OnClick('npc_dota_hero_spirit_breaker')"><Label text="Spirit Breaker" id="label_npc_dota_hero_spirit_breaker"></Label></Button>
@@ -119,6 +120,7 @@
             <Button id="npc_dota_hero_venomancer" onactivate="OnClick('npc_dota_hero_venomancer')"><Label text="Venomancer" id="label_npc_dota_hero_venomancer"></Label></Button>
             <Button id="npc_dota_hero_viper" onactivate="OnClick('npc_dota_hero_viper')"><Label text="Viper" id="label_npc_dota_hero_viper"></Label></Button>
             <Button id="npc_dota_hero_visage" onactivate="OnClick('npc_dota_hero_visage')"><Label text="Visage" id="label_npc_dota_hero_visage"></Label></Button>
+            <Button id="npc_dota_hero_void_spirit" onactivate="OnClick('npc_dota_hero_void_spirit')"><Label text="Void Spirit" id="label_npc_dota_void_spirit"></Label></Button>
             <Button id="npc_dota_hero_warlock" onactivate="OnClick('npc_dota_hero_warlock')"><Label text="Warlock" id="label_npc_dota_hero_warlock"></Label></Button>
             <Button id="npc_dota_hero_weaver" onactivate="OnClick('npc_dota_hero_weaver')"><Label text="Weaver" id="label_npc_dota_hero_weaver"></Label></Button>
             <Button id="npc_dota_hero_windrunner" onactivate="OnClick('npc_dota_hero_windrunner')"><Label text="Windranger" id="label_npc_dota_hero_windrunner"></Label></Button>

@@ -466,6 +466,14 @@ var heroAliases = {
     "npc_dota_hero_mars": {
         "name": "Mars",
         "aliases": []
+    },
+    "npc_dota_hero_snapfire": {
+        "name": "Snapfire",
+        "aliases": []
+    },
+    "npc_dota_hero_void_spirit": {
+        "name": "Void Spirit",
+        "aliases": []
     }
 }
 
@@ -494,8 +502,7 @@ function findMatches(s) {
         var k = heroes[i];
         if (startsWith(heroAliases[k].name.toLowerCase(), s) || heroAliases[k].aliases.indexOf(s) != -1) {
             matches.good.push(k);
-        }
-        else {
+        } else {
             matches.bad.push(k);
         }
     }
@@ -585,32 +592,31 @@ function GetAbsoluteOffset(root, panel, x, y) {
             x: x + panel.actualxoffset,
             y: y + panel.actualyoffset
         }
-    }
-    else {
+    } else {
         return GetAbsoluteOffset(root, panel.GetParent(), x + panel.actualxoffset, y + panel.actualyoffset)
     }
 }
 
 var _CustomDropDown;
 
-(function () {
+(function() {
     $('#CustomDropDown').visible = false;
     $('#SearchTextbox').visible = false;
-    
+
     function CustomDropDown() {
         this.panel = $.GetContextPanel();
     }
-    CustomDropDown.prototype.SetX = function (v) {
+    CustomDropDown.prototype.SetX = function(v) {
         this.panel.style.x = v.toString() + "px";
     }
-    CustomDropDown.prototype.SetY = function (v) {
+    CustomDropDown.prototype.SetY = function(v) {
         this.panel.style.y = v.toString() + "px";
     }
-    CustomDropDown.prototype.SetPos = function (pos) {
+    CustomDropDown.prototype.SetPos = function(pos) {
         this.SetX(pos.x);
         this.SetY(pos.y);
     }
-    CustomDropDown.prototype.SetXY = function (x, y) {
+    CustomDropDown.prototype.SetXY = function(x, y) {
         this.SetX(x);
         this.SetY(y);
     }
@@ -618,7 +624,7 @@ var _CustomDropDown;
     CustomDropDown.prototype.Close = CloseDropDown;
     CustomDropDown.prototype.GetAbsoluteOffset = GetAbsoluteOffset;
     CustomDropDown.prototype.heroAliases = heroAliases;
-    
+
     _CustomDropdown = new CustomDropDown();
     GameUI.CustomUIConfig().CustomDropDown = _CustomDropdown;
     GameUI.CustomUIConfig().CustomDropDown.SetXY(200, 200);
