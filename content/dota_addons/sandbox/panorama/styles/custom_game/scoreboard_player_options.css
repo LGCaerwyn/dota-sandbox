@@ -2,12 +2,13 @@
     background-color: #181818dd;
     padding: 5px;
     margin-top: 44px;
-    width: 500px;
+    width: 400px;
     flow-children: down;
-    height: 850px;
+    height: 70px;
     transform: translateY(-900px);
     horizontal-align: middle;
 }
+
 .options-container.active {
     transform: translateY(0px);
 }
@@ -19,35 +20,9 @@
     padding-right: 5px;
 }
 
-DOTAItemImage {
-  width: 60px;
-  padding: 3px;
-}
-
-#shop {
-    width: 100%;
-    overflow: scroll scroll;
-}
-
-.shop-tabs {
-  flow-children: right;
-  horizontal-align: middle;
-}
-
-.shop-tabs Button {
-  width: 33%;
-}
-
-.shop-item {
-    box-shadow: #00000055 -4px -4px 8px 8px;
-}
-.shop-item:hover {
-    border: 1px solid #FFFFFF00;
-}
-
 .DemoButton Label {
-	margin-left: 5px;
-	margin-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     width: 100%;
     text-align: center;
 }
@@ -56,22 +31,4 @@ DOTAItemImage {
     margin-right: 10px;
     width: 40px;
     horizontal-align: right;
-}
-
-.shop-tab {
-  flow-children: right;
-  visibility: collapse;
-  horizontal-align: middle;
-}
-
-.shop-tab.active {
-  visibility: visible;
-}
-
-.item-row {
-  flow-children: right;
-}
-
-.item-column {
-  flow-children: down;
 }

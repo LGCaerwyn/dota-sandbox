@@ -20,11 +20,7 @@
 	"Other_ButtonCategory"						"其它选项"
 	"Unit_ButtonCategory"						"创建单位"
     
-    "HeroOptionsBasic"                         "基础物品"
-    "HeroOptionsUpgrades"                      "升级物品"
-    "HeroOptionsSecret"                        "神秘商店"
     "HeroOptionsChangeHero"                    "更换英雄"
-    "HeroOptionsItemFilter"                    "搜索物品"
     
     "Cheats_PopupMessage"                                          "未勾选“允许作弊指令”导致许多功能无法生效。创建一个允许作弊的房间来使用这些功能。"
     "CheatsQuit_Button"                                          "退出游戏"

@@ -19,12 +19,8 @@
 	"Stats_ButtonCategory"						"สถิติ"
 	"Other_ButtonCategory"						"อื่น ๆ "
 	"Unit_ButtonCategory"						"ยูนิต"
-    
-    "HeroOptionsBasic"                         "พื้นฐาน"
-    "HeroOptionsUpgrades"                      "อัพเกรด"
-    "HeroOptionsSecret"                        "ความลับ"
+
     "HeroOptionsChangeHero"                    "เปลี่ยนฮีโร่"
-    "HeroOptionsItemFilter"                    "ตัวกรองไอเท็ม"
     
     "Cheats_PopupMessage"                                          "คุณสมบัติหลายอย่างจะไม่ทำงานเพราะการใช้สูตรโกงถูกปิด เปิดการใช้สูตรโกงเพื่อเข้าใช้งาน"
     "CheatsQuit_Button"                                          "ออกจากเกม"
