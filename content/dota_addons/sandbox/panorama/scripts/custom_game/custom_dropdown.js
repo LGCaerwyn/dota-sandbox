@@ -475,6 +475,10 @@ var heroAliases = {
         "name": "Void Spirit",
         "aliases": []
     },
+    "npc_dota_hero_hoodwink": {
+        "name": "Hoodwink",
+        "aliases": []
+    },
     "npc_dota_hero_dawnbreaker": {
         "name": "Dawnbreaker",
         "aliases": []
