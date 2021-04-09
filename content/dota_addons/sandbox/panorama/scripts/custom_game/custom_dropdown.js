@@ -474,6 +474,10 @@ var heroAliases = {
     "npc_dota_hero_void_spirit": {
         "name": "Void Spirit",
         "aliases": []
+    },
+    "npc_dota_hero_dawnbreaker": {
+        "name": "Dawnbreaker",
+        "aliases": []
     }
 }
 

@@ -31,6 +31,7 @@
             <Button id="npc_dota_hero_crystal_maiden" onactivate="OnClick('npc_dota_hero_crystal_maiden')"><Label text="Crystal Maiden" id="label_npc_dota_hero_crystal_maiden"></Label></Button>
             <Button id="npc_dota_hero_dark_seer" onactivate="OnClick('npc_dota_hero_dark_seer')"><Label text="Dark Seer" id="label_npc_dota_hero_dark_seer"></Label></Button>
             <Button id="npc_dota_hero_dark_willow" onactivate="OnClick('npc_dota_hero_dark_willow')"><Label text="Dark Willow" id="label_npc_dota_hero_dark_willow"></Label></Button>
+            <Button id="npc_dota_hero_dawnbreaker" onactivate="OnClick('npc_dota_hero_dawnbreaker')"><Label text="Dawnbreaker" id="label_npc_dota_hero_dawnbreaker"></Label></Button>
             <Button id="npc_dota_hero_dazzle" onactivate="OnClick('npc_dota_hero_dazzle')"><Label text="Dazzle" id="label_npc_dota_hero_dazzle"></Label></Button>
             <Button id="npc_dota_hero_death_prophet" onactivate="OnClick('npc_dota_hero_death_prophet')"><Label text="Death Prophet" id="label_npc_dota_hero_death_prophet"></Label></Button>
             <Button id="npc_dota_hero_disruptor" onactivate="OnClick('npc_dota_hero_disruptor')"><Label text="Disruptor" id="label_npc_dota_hero_disruptor"></Label></Button>
