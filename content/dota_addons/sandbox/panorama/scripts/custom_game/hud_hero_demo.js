@@ -38,7 +38,7 @@ function OnPlayerDropDownChanged() {
 }
 
 function NetTableChangedLabelUpdater(netTable, labelElement) {
-    return function (table_name, key, data) {
+    return function(table_name, key, data) {
         if (IsPlayerSelected(key)) {
             labelElement.text = data.value.toFixed(0);
         }
@@ -157,10 +157,10 @@ GameUI.SetMouseCallback(function(eventName, arg) {
             var coordinates = GameUI.GetScreenWorldPosition(GameUI.GetCursorPosition());
             if (coordinates != null) {
                 var pos = {
-                        x: coordinates[0],
-                        y: coordinates[1],
-                        z: coordinates[2]
-                    }
+                    x: coordinates[0],
+                    y: coordinates[1],
+                    z: coordinates[2]
+                }
                 GameEvents.SendCustomGameEventToServer("MouseClick", {
                     "pos": pos,
                     "selectedUnits": selectedUnits
@@ -217,14 +217,14 @@ function SetChatHandler(msg) {
     $('#EffectiveCreepSpawnTime').text = 0;
     $('#SetCreepUpgrades').text = 0;
     UpdatePosition();
-    GameEvents.Subscribe( "update_text_ui", UpdateTextUI );
-    GameEvents.Subscribe( "update_toggle_ui", UpdateToggleUI );
-    GameEvents.Subscribe( "update_neutral_spawn_interval_ui", UpdateNeutralSpawnIntervalUI );
-    GameEvents.Subscribe( "update_host_time_scale_ui", UpdateHostTimeScaleUI );
-    
-    GameEvents.Subscribe( "log", LogHandler );
-    GameEvents.Subscribe( "set_chat", SetChatHandler );
-    
+    GameEvents.Subscribe("update_text_ui", UpdateTextUI);
+    GameEvents.Subscribe("update_toggle_ui", UpdateToggleUI);
+    GameEvents.Subscribe("update_neutral_spawn_interval_ui", UpdateNeutralSpawnIntervalUI);
+    GameEvents.Subscribe("update_host_time_scale_ui", UpdateHostTimeScaleUI);
+
+    GameEvents.Subscribe("log", LogHandler);
+    GameEvents.Subscribe("set_chat", SetChatHandler);
+
     //var top = $.GetContextPanel().GetParent().GetParent().GetParent();
     //chat = top.FindChildTraverse("ChatInput");
     //hudChat = top.FindChildTraverse("HudChat");

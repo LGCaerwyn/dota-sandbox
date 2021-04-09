@@ -20,13 +20,6 @@ function OnHeroChanged() {
     });
 }
 
-function ItemClick(item) {
-    GameEvents.SendCustomGameEventToServer("ShopItemButtonPressed", {
-        pID: $.GetContextPanel().GetAttributeInt("player_id", -1),
-        item: item
-    });
-}
-
 function SelectHero(data) {
     GameUI.SelectUnit(data.entId, false);
 }
