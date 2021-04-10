@@ -79,7 +79,7 @@
 
         // Cost
         "AbilityManaCost"               "10"
-        
+
         // Special
         "AbilitySpecial"
         {
