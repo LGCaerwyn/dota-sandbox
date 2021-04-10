@@ -2,7 +2,7 @@ print( "Hero Demo game mode loaded." )
 
 _G.NEUTRAL_TEAM = 4 -- global const for neutral team int
 _G.DOTA_MAX_ABILITIES = 16
-_G.HERO_MAX_LEVEL = 25
+_G.HERO_MAX_LEVEL = 30
 _G.XP_RANGE = 1500
 _G.BLINK_RANGE = 1200
 _G.TOWER_TRUE_SIGHT_RANGE = 700

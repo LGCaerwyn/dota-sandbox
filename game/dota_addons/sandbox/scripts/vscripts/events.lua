@@ -297,7 +297,7 @@ function RefreshUnit(hUnit, bHealth, bMana, bCooldowns)
 end
 
 function RefreshUnitCooldowns(hUnit)
-    for i = 0, 5 do
+    for i = 0, 10 do
         local item = hUnit:GetItemInSlot(i)
         if item ~= nil then
             item:EndCooldown()
@@ -360,7 +360,7 @@ function CHeroDemo:OnMaxLevelButtonPressed( eventSourceIndex, data )
 end
 
 function LevelHeroToMax( hPlayerHero )
-	hPlayerHero:AddExperience( 32400, false, false ) -- for some reason maxing your level this way fixes the bad interaction with OnHeroReplaced
+	hPlayerHero:AddExperience( 28545, false, false ) -- for some reason maxing your level this way fixes the bad interaction with OnHeroReplaced
 	--while hPlayerHero:GetLevel() < 25 do
 		--hPlayerHero:HeroLevelUp( false )
 	--end
