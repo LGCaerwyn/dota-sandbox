@@ -482,6 +482,18 @@ var heroAliases = {
     "npc_dota_hero_dawnbreaker": {
         "name": "Dawnbreaker",
         "aliases": []
+    },
+	"npc_dota_hero_marci": {
+        "name": "Marci",
+        "aliases": []
+    },
+	"npc_dota_hero_muerta": {
+        "name": "Muerta",
+        "aliases": []
+    },
+	"npc_dota_hero_primal_beast": {
+        "name": "Primal Beast",
+        "aliases": []
     }
 }
 

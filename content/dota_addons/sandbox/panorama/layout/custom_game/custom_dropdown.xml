@@ -66,11 +66,13 @@
             <Button id="npc_dota_hero_lycan" onactivate="OnClick('npc_dota_hero_lycan')"><Label text="Lycan" id="label_npc_dota_hero_lycan"></Label></Button>
             <Button id="npc_dota_hero_magnataur" onactivate="OnClick('npc_dota_hero_magnataur')"><Label text="Magnus" id="label_npc_dota_hero_magnataur"></Label></Button>
             <Button id="npc_dota_hero_mars" onactivate="OnClick('npc_dota_hero_mars')"><Label text="Mars" id="label_npc_dota_hero_mars"></Label></Button>
+			<Button id="npc_dota_hero_marci" onactivate="OnClick('npc_dota_hero_marci')"><Label text="Marci" id="label_npc_dota_hero_marci"></Label></Button>
             <Button id="npc_dota_hero_medusa" onactivate="OnClick('npc_dota_hero_medusa')"><Label text="Medusa" id="label_npc_dota_hero_medusa"></Label></Button>
             <Button id="npc_dota_hero_meepo" onactivate="OnClick('npc_dota_hero_meepo')"><Label text="Meepo" id="label_npc_dota_hero_meepo"></Label></Button>
             <Button id="npc_dota_hero_mirana" onactivate="OnClick('npc_dota_hero_mirana')"><Label text="Mirana" id="label_npc_dota_hero_mirana"></Label></Button>
             <Button id="npc_dota_hero_monkey_king" onactivate="OnClick('npc_dota_hero_monkey_king')"><Label text="Monkey King" id="label_npc_dota_hero_monkey_king"></Label></Button>
             <Button id="npc_dota_hero_morphling" onactivate="OnClick('npc_dota_hero_morphling')"><Label text="Morphling" id="label_npc_dota_hero_morphling"></Label></Button>
+			<Button id="npc_dota_hero_muerta" onactivate="OnClick('npc_dota_hero_muerta')"><Label text="Muerta" id="label_npc_dota_hero_muerta"></Label></Button>
             <Button id="npc_dota_hero_naga_siren" onactivate="OnClick('npc_dota_hero_naga_siren')"><Label text="Naga Siren" id="label_npc_dota_hero_naga_siren"></Label></Button>
             <Button id="npc_dota_hero_furion" onactivate="OnClick('npc_dota_hero_furion')"><Label text="Nature's Prophet" id="label_npc_dota_hero_furion"></Label></Button>
             <Button id="npc_dota_hero_necrolyte" onactivate="OnClick('npc_dota_hero_necrolyte')"><Label text="Necrophos" id="label_npc_dota_hero_necrolyte"></Label></Button>
@@ -84,6 +86,7 @@
             <Button id="npc_dota_hero_phantom_assassin" onactivate="OnClick('npc_dota_hero_phantom_assassin')"><Label text="Phantom Assassin" id="label_npc_dota_hero_phantom_assassin"></Label></Button>
             <Button id="npc_dota_hero_phantom_lancer" onactivate="OnClick('npc_dota_hero_phantom_lancer')"><Label text="Phantom Lancer" id="label_npc_dota_hero_phantom_lancer"></Label></Button>
             <Button id="npc_dota_hero_phoenix" onactivate="OnClick('npc_dota_hero_phoenix')"><Label text="Phoenix" id="label_npc_dota_hero_phoenix"></Label></Button>
+            <Button id="npc_dota_hero_primal_beast" onactivate="OnClick('npc_dota_hero_primal_beast')"><Label text="Primal Beast" id="label_npc_dota_hero_primal_beast"></Label></Button>
             <Button id="npc_dota_hero_puck" onactivate="OnClick('npc_dota_hero_puck')"><Label text="Puck" id="label_npc_dota_hero_puck"></Label></Button>
             <Button id="npc_dota_hero_pudge" onactivate="OnClick('npc_dota_hero_pudge')"><Label text="Pudge" id="label_npc_dota_hero_pudge"></Label></Button>
             <Button id="npc_dota_hero_pugna" onactivate="OnClick('npc_dota_hero_pugna')"><Label text="Pugna" id="label_npc_dota_hero_pugna"></Label></Button>
